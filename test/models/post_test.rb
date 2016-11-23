@@ -1,7 +1,7 @@
-require 'test_helper'
+require 'spec/spec_helper'
 
-class PostTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+describe Post do
+  it 'sashimi' do
+    expect(1).to_be eq 1
+  end
 end
